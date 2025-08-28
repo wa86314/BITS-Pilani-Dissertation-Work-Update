@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "INFO: This Microservice is use for updating record to the Database"
+    return "INFO: This Microservice is use for updating recorto the Database"
 
 @app.route('/update', methods=['PUT'])
 def update():
